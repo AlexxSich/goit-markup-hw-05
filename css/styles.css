@@ -568,10 +568,7 @@ img {
 
 .subscribe-form-btn-icon {
     margin-left: 16px;
-
 }
-
-
 
 /* backdrop styles and modal window */
 
@@ -657,7 +654,7 @@ img {
 }
 
 .contact-form-field-wrapper {
-    margin-bottom: 8px;
+    margin-bottom: 16px;
 
 }
 
@@ -723,7 +720,7 @@ img {
 }
 
 .contact-form-checkbox-wrapper {
-    margin-bottom: 16px;
+    margin-bottom: 24px;
 }
 
 .contact-form-checkbox-label {
