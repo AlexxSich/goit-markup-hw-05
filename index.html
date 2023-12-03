@@ -407,35 +407,39 @@
                 </ul>
 
             </div>
+
+
+
             <!-- subscribe-form -->
             <div class="subscribe-form-section">
+                <p class="subscribe-form-heading">Subscribe</p>
                 <form class="subcribe-form">
                     <!-- subscribe input -->
-                    <p class="subscribe-form-heading">Subscribe</p>
-                    <div class="subscribe-form-input-wrapper">
-                        <label class="subscribe-form-label" for="subscribe-form"></label>
+                    <label class="subscribe-form-label" for="subscribe-form">
                         <input class="subscribe-form-input" id="subscribe-form" name="subscribe-form" type="email"
                             placeholder="E-mail" required>
+                    </label>
+                    <button class="subscribe-form-btn" type="submit">Subscribe
+                        <svg class="subscribe-form-btn-icon" width="24" height="24" aria-label="subscribe-ison">
+                            <use href="./images/icons.svg#icon-subscribe"></use>
+                        </svg>
+                    </button>
 
-                        <div class="subscribe-form-btn-wrapper">
-                            <button class="subscribe-form-btn" type="submit">Subscribe
-                                <svg class="subscribe-form-btn-icon" width="24" height="24" aria-label="subscribe-ison">
-                                    <use href="./images/icons.svg#icon-subscribe"></use>
-                                </svg>
-                            </button>
 
-                        </div>
-                    </div>
+
                 </form>
             </div>
+
+
+
 
         </div>
     </footer>
 
     <!-- backdrop modal hidden page/window "backdrop is-open" -->
-    <div class="backdrop">
+    <div class="backdrop is-open">
         <div class="modal">
-            <button class="modal-close-button">
+            <button class="modal-close-button" type="button">
                 <svg class="modal-close-button-icon" width="8" height="8" aria-label="close modal icon">
                     <use href="./images/icons.svg#icon-close"></use>
                 </svg>
@@ -450,7 +454,7 @@
                     <div class="contact-form-input-wrapper">
                         <input class="contact-form-input" id="user-name" name="user-name" type="text"
                             pattern="[a-zA-Zа-яА-ЯіІїЇєЄґҐ']+" title="Oleksii" required>
-                        <svg class="contact-form-input-icon" width="18" height="18" aria-label="user icon">
+                        <svg class="contact-form-input-icon" width="18" height="24" aria-label="user icon">
                             <use href="./images/icons.svg#icon-name"></use>
                         </svg>
                     </div>
@@ -487,12 +491,12 @@
                 <!-- checkbox -->
 
                 <div class="contact-form-checkbox-wrapper">
-                    <input class="contact-form-checkbox visually-hidden" id="privacy-policy-checkbox" name="checkbox"
+                    <input class="contact-form-checkbox visually-hidden" id="user-privacy" name="user-privacy"
                         type="checkbox" value="true" required>
-                    <label class="contact-form-checkbox-label" for="privacy-policy-checkbox">
+                    <label class="contact-form-checkbox-label" for="user-privacy">
 
                         <span class="contact-form-checkbox-icon">
-                            <svg class="contact-form-checkbox-checkmarker" width="16" height="16"
+                            <svg class="contact-form-checkbox-checkmarker" width="10" height="8"
                                 aria-label="chekmark icon">
                                 <use href="./images/icons.svg#icon-checkmark"></use>
                             </svg>
