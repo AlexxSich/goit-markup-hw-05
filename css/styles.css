@@ -507,7 +507,6 @@ img {
 .subscribe-form-section {
     display: inline-flex;
     margin-left: 80px;
-    gap: 24px;
 }
 
 .subscribe-form-heading {
@@ -521,6 +520,7 @@ img {
 
 .subcribe-form {
     display: flex;
+    gap: 24px;
 }
 
 
@@ -723,7 +723,7 @@ img {
 }
 
 .contact-form-checkbox-wrapper {
-    margin-bottom: 24px;
+    margin-bottom: 16px;
 }
 
 .contact-form-checkbox-label {
