@@ -655,7 +655,10 @@ img {
 
 .contact-form-field-wrapper {
     margin-bottom: 8px;
+}
 
+.contact-form-textarea-wrapper {
+    margin-bottom: 16px;
 }
 
 .contact-form-field-label {
