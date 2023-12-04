@@ -484,6 +484,7 @@ img {
 /* subscribe form */
 .subscribe-form-section {
     display: inline-flex;
+    flex-direction: column;
     margin-left: 80px;
 }
 
@@ -499,8 +500,6 @@ img {
     display: flex;
     gap: 24px;
 }
-
-
 
 .subscribe-form-input {
     width: 264px;
